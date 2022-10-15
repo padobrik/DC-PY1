@@ -1,4 +1,5 @@
-# DC-PY1. First part of the Training Program "Python Software Developer"
+# DC-PY1.
+First part of the Training Program "Python Software Developer"
 Kabachenko F.Y., SPbPU student
 
 ## Content
