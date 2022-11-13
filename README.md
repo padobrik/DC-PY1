@@ -8,4 +8,6 @@ Kabachenko F.Y., SPbPU student
 
 **feature/lab3**: ```task1.py```, ```task6.py```, ```task8.py```, ```task9.py``` - loops, functions;
 
-**feature/lab4**: ```task2.py```, ```task3.py``` - more functions, and comprehensions.
+**feature/lab4**: ```task2.py```, ```task3.py``` - more functions, and comprehensions;
+
+**feature/lab5**: ```task1.py```, ```task3.py```, ```task5.py``` - random module, and more comprehensions.
