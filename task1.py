@@ -1,10 +1,7 @@
 from pprint import pprint
 
-output = []
-
-for i in range(0, 16):
-    convert = {'bin': bin(i), 'dec': i, 'oct': oct(i), 'hex': hex(i)}
-    output.append(convert)
+# Создаем список и вносим туда словари с помощью list comprehension
+output = [{'bin': bin(i), 'dec': i, 'oct': oct(i), 'hex': hex(i)} for i in range(16)]
 
 test = [{'bin': '0b0', 'dec': 0, 'hex': '0x0', 'oct': '0o0'},
  {'bin': '0b1', 'dec': 1, 'hex': '0x1', 'oct': '0o1'},
@@ -23,6 +20,6 @@ test = [{'bin': '0b0', 'dec': 0, 'hex': '0x0', 'oct': '0o0'},
  {'bin': '0b1110', 'dec': 14, 'hex': '0xe', 'oct': '0o16'},
  {'bin': '0b1111', 'dec': 15, 'hex': '0xf', 'oct': '0o17'}]
 
-assert output == test, 'Ожидалось совпадение с переменной test'
+assert output == test, 'Ожидалось совпадение с переменной test' # Проверим совпадение нашего словаря с ожидаемым словарем
 
 pprint(output)
