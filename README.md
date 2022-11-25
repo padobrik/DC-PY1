@@ -10,4 +10,6 @@ Kabachenko F.Y., SPbPU student
 
 **feature/lab4**: ```task2.py```, ```task3.py``` - more functions, and comprehensions;
 
-**feature/lab5**: ```task1.py```, ```task3.py```, ```task5.py``` - random module, and more comprehensions.
+**feature/lab5**: ```task1.py```, ```task3.py```, ```task5.py``` - random module, and more comprehensions;
+
+**feature/lab6**: ```task3.py```, ```task4.py``` - processing JSON and CSV files, use of libs of the same name.
