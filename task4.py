@@ -2,6 +2,9 @@ import json
 from typing import List
 
 def csv_to_list_dict(filename: str, delimiter: str = ",", new_line: str = '\n') -> List[dict]:
+    '''
+    Performs input csv file into list of dictionaries with coordinates
+    '''
     output = []
     with open(filename, 'r') as input_f:
         headers = next(input_f).strip(new_line).split(delimiter)
